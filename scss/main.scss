@@ -1,0 +1,58 @@
+@import './config';
+@import './reset';
+@import './navbar';
+@import './home';
+@import './services';
+@import './article';
+@import './testimonial';
+@import './contact';
+@import './footer';
+@import './responsive';
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap");
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    color: $black-color;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: "Mulish", sans-serif;
+}
+
+.page {
+    min-height: calc(100vh - (6rem + 4rem));
+}

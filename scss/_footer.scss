@@ -1,0 +1,42 @@
+.page-footer {
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+    min-height: 4rem;
+    padding: 4rem;
+    max-width: 100%;
+    .footer-about {
+        margin-bottom: 2rem;
+        max-width: 500px;
+        p {
+            padding: 1rem 0;
+            color: $white-color;
+        }
+        img {
+            margin-left: 0;
+        }
+    }
+}
+
+.footer-links {
+    padding: 1rem 0;
+    a {
+       color: $white-color;
+       display: flex;
+       flex-direction: column;
+       padding: 0.25rem 0;
+    }
+    h2 {
+       color: $white-color;
+    }
+}
+
+.scroll{
+        position: absolute;
+        z-index: 0;
+        margin-top: -2rem;
+        margin-left: 1190px;
+}
+
+// .footer{
+//     display: flex;
+//     flex-direction: row-reverse;
+// }

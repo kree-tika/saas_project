@@ -1,0 +1,53 @@
+.block2 {
+    @include flexCenter(column);
+    width: 100%;
+    margin-bottom: 6rem;
+
+}
+
+.box-container2 {
+    @include flexCenter(column);
+    margin: 0;
+    .box2 {
+        /* border: 2px solid green; */
+        background: $white-color;
+        border-radius: 20px;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin: 40px 0;
+
+    img {
+        margin-left: 0;
+        margin-top: 0;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        }
+    h2, p, a 
+        {
+        margin: 0 25px;
+        padding: 5px;
+        }
+    a {
+        color: $primary-color;
+        margin-bottom: 2rem;
+
+        img {
+                margin: 0;
+                padding-left: 0.15rem;
+            }
+     }
+    }
+}
+
+.article-section {
+    display: flex;
+    flex-direction: row-reverse;
+    .vector{
+        position: absolute;
+            z-index: -1;
+    }
+}

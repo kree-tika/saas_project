@@ -1,0 +1,33 @@
+$primary-color:#458ff6;
+$black-color:#000;
+$white-color:#fff;
+$grey-color:#7d7987;
+$max-width: 1120px;
+$fixed-width: 600px;
+$gradient-colors: #67c3f3 9.05%, #5a98f2 76.74%;
+
+@mixin transition{
+    transition: 0.3s ease-in-out all;
+}
+@mixin flexCenter($direction){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin media-md {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+@mixin media-sm {
+    @media screen and (min-width: 576px) {
+        @content;
+    }
+}
+@mixin media-sd{
+    @media screen and (min-width:772px){
+        @content;
+    }
+}

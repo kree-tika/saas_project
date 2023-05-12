@@ -1,0 +1,158 @@
+@include media-sm {
+    .box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .vector {
+        width: 550px;
+    }
+
+  .box-container2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+  }
+  .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@include media-sd{
+    .form-layout {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            input {
+                width: 300px;
+            }
+        }
+}
+
+@include media-md{
+.nav-btn {
+        display: none;
+    }
+
+    .navbar {
+        height: 6rem;
+
+    }
+
+    .nav-center {
+        @include flexCenter(row);
+    }
+
+    .nav-header {
+        height: auto;
+        margin-right: 2rem;
+    }
+
+    .nav-links {
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .nav-link {
+        padding: 0 15px;
+        border-top: none;
+        margin-right: 1rem;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .home-container {       
+        flex-direction: row;
+        justify-content: start;
+        margin: 1rem 10rem;
+        margin-bottom: 8rem;
+        overflow: visible;
+    
+    img {
+        max-width: 550px;
+        margin-left: 6rem;
+        }
+    &.home2{
+        margin: 8rem 0;
+        img{
+            margin:0 6rem;
+        }
+    }
+    }
+    
+    .home-text {
+        width: 30vw;
+        h1 {
+                letter-spacing: 0;
+                line-height: 1;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+    .box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 50px 120px;
+        .box img {
+            margin-left: 0;
+        }
+    }
+
+    .more-info img {
+        margin-left: 0;
+        margin-right: 6rem;
+    }
+
+    .info p {
+        margin: 0.75rem 11rem;
+    }
+
+    .vector {
+        width: none;
+    }
+
+    .slider {
+    margin-bottom: 250px;
+    margin-top: -10px;
+    }
+
+    .full-content {
+        padding: 0 50px;
+        width: 70vw;
+    }
+
+    
+    .layout {
+        flex-direction: row;
+        margin-top: -15px;
+
+        .person {
+            margin-left: 0.65rem;
+        }
+    }
+
+    .review {
+        margin: 12rem 3rem;
+    }
+        
+    
+    .box-container2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+  .page-footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
